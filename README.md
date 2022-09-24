@@ -1,24 +1,5 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Esta app por ahora consulta el valor de la UF y dólar hoy a la api 'https://mindicador.cl/'
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Este repositorio es para probar nuevas funcionalidades de rails 7, hotwire, y otras cosas.
