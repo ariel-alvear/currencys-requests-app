@@ -1,2 +1,6 @@
-<%= link_to 'Valor UF', home_uf_value_path %>
-<%= link_to 'Valor Dolar', home_dolar_value_path %>
+<%= turbo_frame_tag "uf_value" do %>
+    <%= link_to "Valor UF", home_uf_value_path %>
+<% end %>
+<%= turbo_frame_tag "dolar_value" do %>
+    <%= link_to "Valor Dolar", home_dolar_value_path %>
+<% end %>

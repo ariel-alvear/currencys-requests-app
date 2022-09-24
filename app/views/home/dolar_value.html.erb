@@ -1,1 +1,3 @@
-<p><%= @dolar_value %></p>
+<%= turbo_frame_tag "dolar_value" do %>
+    <p><%= number_to_currency(@dolar_value) %> CLP</p>
+<% end %>
